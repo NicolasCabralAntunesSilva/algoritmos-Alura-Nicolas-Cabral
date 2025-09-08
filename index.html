@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>Passeando em Ponta Grossa</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <p>Passeando em Ponta Grossa você pode ir na Escola ou no Parque</p>
+            <button class="btn-proximo" data-proximo="1">Escola</button>
+            <button class="btn-proximo" data-proximo="2">Parque</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>Na Escola você encontra um livro</p>
+            <button class="btn-proximo" data-proximo="3">Pegar o livro</button>
+            <button class="btn-proximo" data-proximo="4">Dar meia volta e sair</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>No Parque você encontra um ônibus Escolar</p>
+            <button class="btn-proximo" data-proximo="5">Ir para o ônibus</button>
+            <button class="btn-proximo" data-proximo="6">Desistir</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>Ao pegar o livro você se torna um estudante muito esforçado, Fim!</p>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <p>Você desiste de pegar o livro e se torna um mal aluno, Fim!</p>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p>Você vai para o ônibus Escolar e se torna um bom aluno, Fim!</p>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p>Você desiste do ônibus e vira um mal aluno, Fim!</p>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
